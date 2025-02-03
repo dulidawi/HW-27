@@ -1,0 +1,44 @@
+.box {
+  width: 300px;
+  height: 500px;
+  background-color: rgb(142, 135, 135);
+  position: fixed;
+  top: 0;
+  left: -250px;
+}
+
+.box:hover {
+    bottom: 0;
+    .box-title {
+        visibility: hidden;
+    }    
+}
+
+.box-title {
+  font-size: 35px;
+  color: antiquewhite;
+  text-align: center;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  position: absolute;
+  right: -80px;
+  top: 220px;
+}
+
+.box-list {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 15px;
+}
+
+.box-item {
+  font-size: 30px;
+  color: antiquewhite;
+  text-transform: uppercase;
+}
+
+.box-item:hover {
+  color: rgb(214, 177, 129);
+}
