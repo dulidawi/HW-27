@@ -9,8 +9,10 @@ h1,h2,h3,p {
 
 ul {
     list-style: none;
+    list-style-image: url(https://static.vecteezy.com/system/resources/previews/000/442/530/original/information-vector-icon.jpg);
     margin: 0;
     padding: 0;
+
 }
 
 img {
